@@ -41,9 +41,14 @@ export default function RootLayout({
             placeholder="search"
             className="input text-white input-sm rounded-full"
           />
-          <a className="btn rounded-full" href="/login">
-            logout
-          </a>
+          <div className="flex gap-2">
+            <a className="btn rounded-full" href="/login">
+              logout
+            </a>
+            <a className="btn rounded-full" href="/cart">
+              cart
+            </a>
+          </div>
         </nav>
         {children}
       </body>

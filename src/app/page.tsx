@@ -1,3 +1,4 @@
+// import { Book } from "../components/card";
 import { Book } from "./components/card";
 import Card from "./components/card";
 
@@ -6,47 +7,55 @@ export const books: Book[] = [
     title: "The Alchemist",
     author: "Paulo Coelho",
     cover: "book1.png",
-  },
-
-  {
-    title: "The Alchemist",
-    author: "Paulo Coelho",
-    cover: "book1.png",
+    bookId: "1",
   },
   {
     title: "The Alchemist",
     author: "Paulo Coelho",
     cover: "book1.png",
+    bookId: "2",
   },
   {
     title: "The Alchemist",
     author: "Paulo Coelho",
     cover: "book1.png",
+    bookId: "3",
   },
   {
     title: "The Alchemist",
     author: "Paulo Coelho",
     cover: "book1.png",
+    bookId: "4",
   },
   {
     title: "The Alchemist",
     author: "Paulo Coelho",
     cover: "book1.png",
+    bookId: "5",
   },
   {
     title: "The Alchemist",
     author: "Paulo Coelho",
     cover: "book1.png",
+    bookId: "6",
   },
   {
     title: "The Alchemist",
     author: "Paulo Coelho",
     cover: "book1.png",
+    bookId: "7",
   },
   {
     title: "The Alchemist",
     author: "Paulo Coelho",
     cover: "book1.png",
+    bookId: "9",
+  },
+  {
+    title: "The Alchemist",
+    author: "Paulo Coelho",
+    cover: "book1.png",
+    bookId: "10",
   },
 ];
 
